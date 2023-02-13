@@ -1,0 +1,42 @@
+body {
+    margin: 3vw;
+    background: #F29999;
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10vh;
+    color: #8C1111;
+}
+
+span {
+    color: #260401;
+    float: right;
+}
+
+#result {
+    color: #8C1111;
+}
+
+button {
+    position: relative;
+    z-index: 1;
+    padding: 20px 40px;
+    font-size: 5vh;
+    box-sizing: border-box;
+    background: #D91A1A;
+    color: white;
+    border: 5px solid #260401;
+    border-radius: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button:hover {
+    background: #A60303;
+    border: 5px solid #D91A1A;
+}
